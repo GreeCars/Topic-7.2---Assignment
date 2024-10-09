@@ -17,3 +17,14 @@ for (int i = -10; i <= 10; i = i + 2)
 Console.WriteLine();
 
 Console.WriteLine("3. For Loop Fun");
+Console.WriteLine("Type in a name:");
+string name = Console.ReadLine();
+int countTo;
+countTo = 10;
+if (name == "Aldworth")
+    countTo = 5;
+Console.WriteLine();
+for (int i = 1; i <= countTo; i = i + 1)
+{
+    Console.WriteLine(name);
+}
