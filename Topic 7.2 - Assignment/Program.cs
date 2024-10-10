@@ -21,7 +21,7 @@ Console.WriteLine("Type in a name:");
 string name = Console.ReadLine();
 int countTo;
 countTo = 10;
-if (name == "Aldworth")
+if (name == "Aldworth" || name == "aldworth")
     countTo = 5;
 Console.WriteLine();
 for (int i = 1; i <= countTo; i = i + 1)
